@@ -1,9 +1,4 @@
-
-
-
-
-
- # O range(5) gera os números 0, 1, 2, 3, 4 (5 repetições)
+# O range(5) gera os números 0, 1, 2, 3, 4 (5 repetições)
 # for i in range(5):
 #     try:
 #         # i representa o número atual da repetição (0, 1, 2...)
@@ -23,7 +18,7 @@
 
 # >>> WHILE
 
-# loolap=float(input('Qual o valor do evento (inteira)?')) #Dependnedo do input, cai num loop infinito
+# loolap=float(input('Qual o valor do evento (inteira)?')) #Dependendo do input, cai num loop infinito
 
 # while loolap > 300:
 #     print('Mas não vou mesmo!!!')
@@ -34,7 +29,7 @@
 # loolap=0
 
 # while loolap > 300:
-#     loolap=float(input('Qual o valor do evento (inteira)?')) #Dependnedo do input, cai num loop infinito
+#     loolap=float(input('Qual o valor do evento (inteira)?')) #Dependendo do input, cai num loop infinito
 #     print('Mas não vou mesmo!!!')
 
 # print('Estarei lá!')
@@ -43,7 +38,7 @@
 # loolap=300
 
 # while loolap >= 300:
-#     loolap=float(input('Qual o valor do evento (inteira)?')) #Dependnedo do input, cai num loop infinito
+#     loolap=float(input('Qual o valor do evento (inteira)?')) #Dependendo do input, cai num loop infinito
 #     print('Mas não vou mesmo!!!')
 
 # print('Estarei lá!')
@@ -55,28 +50,37 @@
 
 nomes = ['Matheus','Alice','Caio','Larissa','Miguel','Rafael']
 
-nome1 = nomes[0]
+# nome1 = nomes[0]
 
-print(nomes[-1])
-print(nomes[-2])
-print(nomes[-3])
-print(nomes[-4])
-print(nome1)
+# print(nomes[-1])
+# print(nomes[-2])
+# print(nomes[-3])
+# print(nomes[-4])
+# print(nome1)
 
-primeira_parte=nomes[0:3]
-print(primeira_parte)
-segunda_parte=nomes[3:6]
-print(segunda_parte)
+# primeira_parte=nomes[0:3]
+# print(primeira_parte)
+# segunda_parte=nomes[3:6]
+# print(segunda_parte)
 
-print(len(nomes))
+# print(len(nomes))
+
+#TUPLAS:
+nomes_tupla = tuple(nomes)
+
+#SETS:
+nome_set = set(nomes)
+print(nome_set)
+
+#DICIONÁRIO
+nome_dict = {"nome 1" : "Matheus",
+              "nome 2" : "Alice", 
+              "nome 3" : "Caio", 
+              }
 
 
 
 
-
-# Desafios:
-# 1. Cálculo de Média Escolar para Vários Alunos use o laço FOR para repetir a lógica de cálculo de média e status(Aprovado/Reprovado/Recuperação) que você fez na Aula 4, 
-# agora para 10 estudantes.
 
 
 
